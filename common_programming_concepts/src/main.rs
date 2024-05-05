@@ -1,28 +1,21 @@
 mod sub;
-fn variable_and_mutability()
-{
-    println!("variables and mutability")
+fn variable_and_mutability() {
+    sub::variable_and_mutability_in_rust();
 }
 
-fn data_types()
-{
+fn data_types() {
     println!("data types")
 }
 
-fn functions()
-{
-    sub::first_func();
+fn functions() {
     println!("functions")
 }
 
-fn comments()
-{
+fn comments() {
     println!("comments")
 }
 
-
-fn control_flows()
-{
+fn control_flows() {
     println!("control_flows")
 }
 
@@ -33,5 +26,4 @@ fn main() {
     functions();
     comments();
     control_flows();
-
 }
