@@ -1,5 +1,5 @@
 [package]
-name = "cargo_tutorial"
+name = "rust_program_compiles"
 version = "0.1.0"
 edition = "2021"
 
