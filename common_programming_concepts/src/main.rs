@@ -1,26 +1,30 @@
-mod sub;
+use std::u32;
+
+mod variable_and_mutability_in_rust;
+mod data_types;
 fn variable_and_mutability() {
-    sub::variable_and_mutability_in_rust();
+    variable_and_mutability_in_rust::variable_and_mutability_in_rust();
 }
 
 fn data_types() {
-    println!("data types")
+    data_types::data_types();
+    data_types::numeric_operations();
+    data_types::boolean_function();
 }
 
 fn functions() {
-    println!("functions")
+
 }
 
 fn comments() {
-    println!("comments")
+   
 }
 
 fn control_flows() {
-    println!("control_flows")
+    
 }
 
 fn main() {
-    println!("Hello, world!");
     variable_and_mutability();
     data_types();
     functions();
