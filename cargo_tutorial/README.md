@@ -1,10 +1,10 @@
 #### Craete, build and run a rust project
-`cargo new project_name`
+        cargo new cargo_tutorial
 
-`cd project_name`
+        cd cargo_tutorial
 
-`cargo build`
+        cargo build
 #### cargo build and test`
-`cargo run`
+        cargo run
 #### format the project
-`cargo fmt `
+        cargo fmt
